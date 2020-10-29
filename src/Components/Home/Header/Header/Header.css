@@ -2,6 +2,7 @@
     position: relative;
     padding-top: 1px;
     background-image: linear-gradient(#721AE3 , #532F9F);
+    height: 800px;
 }
 
 .header-container::after{
@@ -10,10 +11,12 @@
     bottom: -5px;
     opacity: 1;
     left: 0;
-    height: 135px;
+    height: 450px;
     position: absolute;
     z-index: 1;
     background-position: center top;
     background-size: cover;
-    background-image: url('../../../../images/image.svg');
+    background-image: url('../../../../images/wave1.png');
 }
+
+

@@ -7,9 +7,11 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <Container fluid className="header-container" style={{paddingBottom: '100px'}} >
-            <Menu/>
-            <MainSection/>
+        <Container fluid className="header-container" style={{ paddingBottom: '100px' }} >
+            <div className="wave-container">
+                <Menu />
+                <MainSection />
+            </div>
         </Container>
     );
 };

@@ -1,0 +1,14 @@
+.blog-container{
+    position: relative;
+}
+.blog-container::after{
+    content: " ";
+    position: absolute;
+    top: -56px;
+    right: 0%;
+    height: 350%;
+    width: 25%;
+    background-repeat: no-repeat;
+    opacity: .3;
+    background-image: url('../../../images/design1.png');
+}

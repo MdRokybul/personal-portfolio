@@ -9,7 +9,7 @@ const Projects = () => {
 
 
     return (
-        <Container style={{ marginTop: '150px' }} className="trails-main">
+        <Container style={{ marginTop: '50px' }} className="trails-main">
             <h2 className="text-center">Projects</h2>
             <Row>
                 {

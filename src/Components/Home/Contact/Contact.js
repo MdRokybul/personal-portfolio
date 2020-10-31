@@ -18,7 +18,7 @@ const Contact = () => {
     }
 
     return (
-        <Container style={{ marginTop: '150px', marginBottom: '20px'}}>
+        <Container style={{ marginTop: '150px', marginBottom: '20px'}} id="contact">
             <Row>
                 <Col className="col-md-6 col-sm-12 col-12">
                     <img style={{ width: '100%' }} src={contact} alt="" />

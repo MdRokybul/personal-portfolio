@@ -7,6 +7,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
+import BlogPage from './Components/BlogPage/BlogPage';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
@@ -14,6 +16,12 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home/>
+        </Route>
+        <Route path="/blogs">
+          <BlogPage/>
+        </Route>
+        <Route path="/resume">
+          <Resume/>
         </Route>
       </Switch>
     </Router>

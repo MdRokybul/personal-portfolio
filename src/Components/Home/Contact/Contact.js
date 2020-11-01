@@ -19,6 +19,7 @@ const Contact = () => {
 
     return (
         <Container style={{ marginTop: '150px', marginBottom: '20px'}} id="contact">
+            <h2 className="text-center">Contact Me</h2>
             <Row>
                 <Col className="col-md-6 col-sm-12 col-12">
                     <img style={{ width: '100%' }} src={contact} alt="" />
@@ -32,13 +33,13 @@ const Contact = () => {
                             </Form.Group>
 
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
+                                <Form.Label>Email address:</Form.Label>
                                 <Form.Control type="email" placeholder="Enter your email" name="email" />
                             </Form.Group>
 
                             <Form.Group controlId="exampleForm.ControlTextarea1">
-                                <Form.Label>Example textarea</Form.Label>
-                                <Form.Control as="textarea" rows={3} name="message" />
+                                <Form.Label>Your Message</Form.Label>
+                                <Form.Control as="textarea" rows={3} name="message" placeholder="Enter your message"/>
                             </Form.Group>
 
                             <Button variant="primary" type="submit">Submit</Button>
